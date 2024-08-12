@@ -1,8 +1,8 @@
 public class Reptile extends Animal {
         private boolean isVenomous;
 
-        public Reptile(String species, boolean isVenomous) {
-            super(species);
+        public Reptile(String species, Food food, boolean isVenomous) {
+            super(species, food);
             this.isVenomous = isVenomous;
         }
 

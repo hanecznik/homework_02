@@ -1,8 +1,8 @@
 public class Fish extends Animal {
     private String waterType;
 
-    public Fish(String species, String waterType) {
-        super(species);
+    public Fish(String species, Food food, String waterType) {
+        super(species, food);
         this.waterType = waterType;
     }
 

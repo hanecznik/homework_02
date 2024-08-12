@@ -1,8 +1,8 @@
 public class Bird extends Animal {
     private boolean canFly;
 
-    public Bird(String species, boolean canFly) {
-        super(species);
+    public Bird(String species, Food food, boolean canFly) {
+        super(species, food);
         this.canFly = canFly;
     }
 
