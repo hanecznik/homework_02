@@ -1,7 +1,7 @@
 public class Reptile extends Animal {
-        private boolean isVenomous;
+        protected boolean isVenomous;
 
-        public Reptile(String species, Food food, boolean isVenomous) {
+        protected Reptile(String species, Food food, boolean isVenomous) {
             super(species, food);
             this.isVenomous = isVenomous;
         }
@@ -16,6 +16,24 @@ public class Reptile extends Animal {
 
         @Override
         public String getInfo() {
-            return super.getInfo() + ", Venomous: " + isVenomous;
+            return "Species: " + species + ", " + food.getFoodInfo() + ", Venomous: " + isVenomous;
+        }
+
+        @Override
+        public String toString() {
+            return "Reptile [species=" + species + ", food=" + food.getFoodInfo() + ", isVenomous=" + isVenomous + "]";
+        }
+
+        @Override
+        public int hashCode() {
+            return super.hashCode() + Boolean.hashCode(isVenomous);
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (!super.equals(obj)) return false;
+            if (getClass() != obj.getClass()) return false;
+            Reptile reptile = (Reptile) obj;
+            return isVenomous == reptile.isVenomous;
         }
 }

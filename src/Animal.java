@@ -1,8 +1,8 @@
-public class Animal {
-    private String species;
-    private Food food;
+abstract class Animal {
+    protected String species;
+    protected Food food;
 
-    public Animal(String species, Food food) {
+    protected Animal(String species, Food food) {
         this.species = species;
         this.food = food;
     }
@@ -23,7 +23,23 @@ public class Animal {
         this.food = food;
     }
 
-    public String getInfo() {
-        return "Species: " + species + ", " + food.getFoodInfo();
+    public abstract String getInfo();
+
+    @Override
+    public String toString() {
+        return "Animal [species=" + species + ", food=" + food.getFoodInfo() + "]";
+    }
+
+    @Override
+    public int hashCode() {
+        return species.hashCode() + food.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Animal animal = (Animal) obj;
+        return species.equals(animal.species) && food.equals(animal.food);
     }
 }
