@@ -1,4 +1,4 @@
-public class Fish extends Animal {
+public class Fish extends Animal implements IAquatic {
     protected String waterType;
 
     protected Fish(String species, Food food, String waterType) {
@@ -35,5 +35,10 @@ public class Fish extends Animal {
         if (getClass() != obj.getClass()) return false;
         Fish fish = (Fish) obj;
         return waterType.equals(fish.waterType);
+    }
+
+    @Override
+    public String getFoodInfo() {
+        return null;
     }
 }

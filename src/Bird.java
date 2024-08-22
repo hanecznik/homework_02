@@ -1,4 +1,4 @@
-public class Bird extends Animal {
+public class Bird extends Animal implements IFlyable {
     protected boolean canFly;
 
     protected Bird(String species, Food food, boolean canFly) {
@@ -35,5 +35,10 @@ public class Bird extends Animal {
         if (getClass() != obj.getClass()) return false;
         Bird bird = (Bird) obj;
         return canFly == bird.canFly;
+    }
+
+    @Override
+    public String getFoodInfo() {
+        return null;
     }
 }

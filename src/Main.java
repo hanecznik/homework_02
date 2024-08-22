@@ -16,7 +16,7 @@ public class Main {
         System.out.println(reptile.getInfo());
         System.out.println(fish.getInfo());
 
-        // Testowanie metod toString(), hashCode() i equals()
+        // Testing of methods
         System.out.println("\nTesting toString, hashCode, and equals:");
         System.out.println(mammal);
         System.out.println(bird);
@@ -27,8 +27,12 @@ public class Main {
         System.out.println("bird hashCode: " + bird.hashCode());
         System.out.println("reptile hashCode: " + reptile.hashCode());
         System.out.println("fish hashCode: " + fish.hashCode());
-
         System.out.println("mammal equals bird? " + mammal.equals(bird));
         System.out.println("reptile equals fish? " + reptile.equals(fish));
+
+        // Testing of variables & final/static methods
+        System.out.println("\nTesting final and static:");
+        Constants.printFinalConstant();
+        System.out.println(Animal.getAnimalType());
     }
 }

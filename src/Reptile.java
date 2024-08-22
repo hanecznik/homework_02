@@ -1,4 +1,4 @@
-public class Reptile extends Animal {
+public class Reptile extends Animal implements IVenomous {
         protected boolean isVenomous;
 
         protected Reptile(String species, Food food, boolean isVenomous) {
@@ -35,5 +35,10 @@ public class Reptile extends Animal {
             if (getClass() != obj.getClass()) return false;
             Reptile reptile = (Reptile) obj;
             return isVenomous == reptile.isVenomous;
+        }
+
+        @Override
+        public String getFoodInfo() {
+            return null;
         }
 }

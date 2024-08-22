@@ -1,6 +1,12 @@
-abstract class Animal {
+
+public abstract class Animal implements IEatable{
     protected String species;
     protected Food food;
+    private static final String ANIMAL_TYPE = "Generic Animal";
+
+    static {
+        System.out.println("Static block in Animal class.");
+    }
 
     protected Animal(String species, Food food) {
         this.species = species;
@@ -24,6 +30,10 @@ abstract class Animal {
     }
 
     public abstract String getInfo();
+
+    public static String getAnimalType() {
+        return ANIMAL_TYPE;
+    }
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-public class Mammal extends Animal {
+public class Mammal extends Animal implements IDomesticated {
     protected boolean isDomesticated;
 
     protected Mammal(String species, Food food, boolean isDomesticated) {
@@ -35,5 +35,10 @@ public class Mammal extends Animal {
         if (getClass() != obj.getClass()) return false;
         Mammal mammal = (Mammal) obj;
         return isDomesticated == mammal.isDomesticated;
+    }
+
+    @Override
+    public String getFoodInfo() {
+        return null;
     }
 }
