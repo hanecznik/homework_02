@@ -5,7 +5,7 @@ public class TryWithResourcesSimpleDemo {
             try (MySimpleResource resource = new MySimpleResource()) {
                 resource.useResource();
             } catch (CustomExceptions.EmptyFieldException e) {
-                System.err.println("Wystąpił wyjątek: " + e.getMessage());
+                System.err.println("Exception appeared: " + e.getMessage());
             }
         }
 }
