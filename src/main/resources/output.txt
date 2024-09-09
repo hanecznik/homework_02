@@ -1,0 +1,166 @@
+Number of unique words: 148
+Word counts:
+been: 1
+helping: 1
+interacting: 1
+well-trained: 1
+owners: 1
+laps: 1
+
+: 1
+when: 1
+observed: 1
+these: 1
+reflexes: 1
+friend: 1
+connection: 1
+animals: 4
+they: 2
+using: 1
+large: 1
+excellent: 2
+in: 5
+loyal: 1
+sense: 1
+them: 1
+traveling: 1
+man's: 1
+an: 1
+each: 1
+exist: 1
+persons: 1
+as: 1
+at: 1
+mammals: 1
+even: 1
+unique: 1
+protective: 1
+dolphins: 1
+dog: 2
+distress: 1
+other: 3
+strong: 2
+be: 1
+
+dolphins: 2
+independent: 1
+sun: 1
+marine: 1
+sea: 1
+danes: 1
+claws: 1
+injured: 1
+ways: 1
+known: 2
+are: 8
+
+
+cats: 1
+by: 1
+have: 3
+share: 1
+behavior: 1
+playful: 1
+
+however: 1
+together: 1
+hand: 1
+a: 2
+purring: 1
+drugs: 1
+efficient: 1
+great: 2
+people: 1
+sharp: 1
+
+
+dolphins: 1
+the: 4
+police: 1
+cats: 3
+exploring: 1
+fish: 1
+to: 4
+
+dogs: 2
+small: 2
+hunters: 1
+quick: 1
+communicate: 1
+prefer: 1
+friendly: 2
+chihuahuas: 1
+bonds: 1
+whistles: 1
+used: 1
+smell: 1
+body: 1
+
+
+each: 1
+helper: 1
+whether: 1
+
+a: 1
+members: 1
+dogs: 2
+
+yet: 1
+from: 1
+has: 1
+different: 1
+group: 1
+all: 2
+catching: 1
+hunt: 1
+curious: 1
+behaviors: 1
+often: 3
+ocean: 1
+companion: 1
+for: 1
+detect: 1
+their: 7
+best: 1
+movements: 1
+surroundings: 1
+mice: 1
+content: 1
+breeds: 1
+can: 2
+alone: 1
+and: 15
+
+many: 1
+of: 4
+spend: 1
+missing: 1
+working: 1
+land: 1
+
+unlike: 1
+
+cats: 1
+make: 1
+live: 1
+on: 3
+highly: 1
+assisting: 1
+characteristics: 1
+or: 4
+resting: 1
+nature: 1
+social: 1
+also: 1
+intelligent: 1
+ranging: 1
+with: 4
+
+they: 2
+environment: 1
+form: 1
+clicks: 1
+pods: 1
+time: 1
+humans: 2
+sitting: 1
